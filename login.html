@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <div class="icon">🔐</div>
+
+    <h2>Admin Login</h2>
+    <p>Sign in to access the administration panel.</p>
+
+  
+            <div class="message {{ category }}"></div>
+
+
+    <form method="POST">
+
+        <label>Admin Gmail</label>
+        <input type="email" name="email"
+               placeholder="Enter admin Gmail" required>
+
+        <label>Password</label>
+        <input type="password" name="password"
+               placeholder="Enter password" required>
+
+        <button type="submit">LOGIN</button>
+
+    </form>
+
+    <p class="footer">Admin Security Verification System</p>
+
+</div>
+
+</body>
+</html>
